@@ -6,7 +6,7 @@ function AllPromotions() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://www.mocky.io/v2/5bc3b9cc30000012007586b7') 
+    fetch('https://www.mocky.io/v2/5bc3b9cc30000012007586b7') 
       .then((response) => response.json())
       .then((data) => {
         setPromotions(data);
